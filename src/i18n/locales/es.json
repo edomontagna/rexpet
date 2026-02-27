@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "gallery": "Galería",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "signIn": "Iniciar Sesión",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "badge": "Retratos de Mascotas con IA",
+    "title": "Tu Mascota, Inmortalizada en Arte",
+    "subtitle": "Transforma la foto de tu querida mascota en un impresionante retrato artístico de calidad museo con IA de vanguardia. Elige entre una colección curada de estilos artísticos de clase mundial.",
+    "cta": "Transforma Tu Mascota",
+    "viewGallery": "Ver Galería"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tres simples pasos para la obra maestra de tu mascota",
+    "step1Title": "Subir Foto",
+    "step1Desc": "Sube una foto clara y bien iluminada de tu mascota",
+    "step2Title": "Elegir Estilo",
+    "step2Desc": "Selecciona de nuestra colección curada de estilos artísticos",
+    "step3Title": "Descargar",
+    "step3Desc": "Obtén tu retrato de alta resolución en segundos"
+  },
+  "gallery": {
+    "title": "Galería de Estilos Artísticos",
+    "subtitle": "Explora nuestra colección curada de estilos artísticos de clase mundial, cada uno diseñado para resaltar la personalidad única de tu mascota."
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Elige el paquete perfecto para los retratos de tu mascota. Sin suscripciones, sin costos ocultos.",
+    "starter": "Starter",
+    "starterDesc": "Perfecto para probar",
+    "bundle": "Bundle",
+    "bundleDesc": "La opción más popular",
+    "collection": "Colección",
+    "collectionDesc": "Mejor valor para entusiastas",
+    "popular": "Popular",
+    "credits": "créditos",
+    "features": {
+      "highRes": "Salida de alta resolución 2K",
+      "allStyles": "Acceso a todos los estilos",
+      "download": "Descarga instantánea",
+      "noExpiry": "Los créditos nunca expiran",
+      "priority": "Generación prioritaria"
+    },
+    "getCta": "Obtener {{plan}}"
+  },
+  "printShop": {
+    "title": "Lleva el Arte a Tu Hogar",
+    "subtitle": "Transforma tus retratos digitales en impresionantes impresiones físicas, entregadas en tu puerta.",
+    "quality": "Impresiones de Calidad Museo",
+    "qualityDesc": "Impresiones premium en lienzo con tintas de archivo que duran toda la vida.",
+    "shipping": "Envío a Tu Puerta",
+    "shippingDesc": "Entrega rápida y asegurada en toda la UE. Cuidadosamente empaquetado para llegar perfecto.",
+    "secure": "Pago Seguro",
+    "secureDesc": "Paga de forma segura con Stripe. Tus datos de pago siempre están protegidos.",
+    "cta": "Comenzar e Imprimir"
+  },
+  "testimonials": {
+    "title": "Amado por Dueños de Mascotas",
+    "subtitle": "Descubre lo que nuestros clientes dicen sobre sus retratos RexPet"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre RexPet",
+    "q1": "¿Cómo funciona RexPet?",
+    "a1": "Simplemente sube una foto clara de tu mascota, elige un estilo artístico de nuestra colección y nuestra IA generará un retrato impresionante en menos de 60 segundos. Luego puedes descargar tu obra maestra en alta resolución o pedir una impresión física.",
+    "q2": "¿Qué resolución tienen las imágenes generadas?",
+    "a2": "Todos los retratos generados se producen en resolución 2K, adecuados para visualización digital e impresión de alta calidad hasta tamaños grandes.",
+    "q3": "¿Cuánto tiempo están disponibles las imágenes generadas?",
+    "a3": "Las imágenes generadas se almacenan durante 30 días. Recomendamos descargar tus retratos tan pronto como estén listos. Siempre puedes regenerar usando otro crédito.",
+    "q4": "¿Puedo pedir impresiones físicas?",
+    "a4": "¡Sí! Ofrecemos impresiones en lienzo de calidad museo enviadas a toda la UE. Después de generar tu retrato, puedes pedir una impresión directamente desde tu panel de control.",
+    "q5": "¿Qué métodos de pago aceptan?",
+    "a5": "Aceptamos todas las tarjetas de crédito y débito principales, Apple Pay, Google Pay y otros métodos de pago locales a través de nuestro pago seguro Stripe.",
+    "q6": "¿Qué pasa si la generación IA falla?",
+    "a6": "Si una generación falla por cualquier razón, tu crédito se reembolsa automáticamente. Puedes intentar de nuevo con la misma foto o con una diferente.",
+    "q7": "¿Puedo eliminar mi cuenta?",
+    "a7": "Sí, puedes eliminar tu cuenta en cualquier momento desde la configuración de tu panel de control. Todos tus datos, incluidas las fotos subidas y los retratos generados, serán eliminados permanentemente de acuerdo con el RGPD."
+  },
+  "footer": {
+    "description": "Retratos de mascotas con IA de lujo creados con tecnología de vanguardia y excelencia artística.",
+    "product": "Producto",
+    "account": "Cuenta",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "madeWith": "Hecho con amor para amantes de mascotas en la UE"
+  },
+  "auth": {
+    "welcomeBack": "Bienvenido de Nuevo",
+    "signInDesc": "Inicia sesión en tu cuenta",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "createAccount": "Crea Tu Cuenta",
+    "createAccountDesc": "Comienza a crear obras maestras de mascotas",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "displayName": "Nombre para Mostrar",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "continueWithGoogle": "Continuar con Google",
+    "or": "o",
+    "createBtn": "Crear Cuenta",
+    "resetPassword": "Restablecer Contraseña",
+    "resetDesc": "Ingresa tu correo y te enviaremos un enlace para restablecer",
+    "checkEmail": "Revisa tu correo para el enlace de restablecimiento",
+    "sendResetLink": "Enviar Enlace",
+    "backToSignIn": "Volver al Inicio de Sesión",
+    "passwordStrength": "Fuerza de la contraseña",
+    "weak": "Débil",
+    "fair": "Regular",
+    "good": "Buena",
+    "strong": "Fuerte"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido, {{name}}",
+    "createNext": "Crea tu próxima obra maestra de mascota",
+    "creditBalance": "Saldo de Créditos",
+    "buyCredits": "Comprar Créditos",
+    "noPortraits": "Aún no hay retratos",
+    "noPortraitsDesc": "Sube una foto de tu mascota para comenzar",
+    "uploadPhoto": "Subir Foto",
+    "recentPortraits": "Retratos Recientes",
+    "history": "Historial",
+    "historyDesc": "Todos tus retratos generados",
+    "noHistory": "Sin historial",
+    "noHistoryDesc": "Tus retratos generados aparecerán aquí",
+    "settings": "Configuración",
+    "settingsDesc": "Administra tu cuenta",
+    "profile": "Perfil",
+    "dangerZone": "Zona de Peligro",
+    "deleteAccount": "Eliminar Cuenta",
+    "deleteAccountDesc": "Elimina permanentemente tu cuenta y todos los datos asociados. Esta acción no se puede deshacer.",
+    "createPortrait": "Crear Retrato",
+    "signOut": "Cerrar Sesión"
+  },
+  "generate": {
+    "title": "Crear Retrato",
+    "step1": "1. Sube la foto de tu mascota",
+    "step1Desc": "Elige una foto clara y bien iluminada de tu mascota",
+    "step2": "2. Elige tu estilo",
+    "step2Desc": "Selecciona el estilo artístico para tu retrato",
+    "step3Generate": "Generar Retrato (1 crédito)",
+    "needCredits": "Necesitas al menos 1 crédito para generar un retrato",
+    "dragDrop": "Haz clic para subir o arrastra y suelta",
+    "fileTypes": "JPG, PNG, WebP hasta 10MB",
+    "generating": "Creando Tu Retrato...",
+    "generatingDesc": "Esto generalmente toma 30-60 segundos. Por favor no cierres esta página.",
+    "ready": "¡Tu Retrato Está Listo!",
+    "download": "Descargar",
+    "share": "Compartir",
+    "createAnother": "Crear Otro Retrato"
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "desc": "La página que buscas no existe o ha sido movida.",
+    "home": "Volver al Inicio",
+    "createPortrait": "Crear Retrato",
+    "looking": "¿Buscas algo específico? Prueba estos:"
+  },
+  "cookie": {
+    "message": "Usamos cookies para mejorar tu experiencia. Al continuar, aceptas el uso de cookies.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Saber más"
+  }
+}

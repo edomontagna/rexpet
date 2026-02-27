@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "gallery": "Galleria",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "signIn": "Accedi",
+    "getStarted": "Inizia Ora"
+  },
+  "hero": {
+    "badge": "Ritratti AI per Animali",
+    "title": "Il Tuo Animale, Immortalato nell'Arte",
+    "subtitle": "Trasforma la foto del tuo amato animale in uno straordinario ritratto artistico di qualità museale usando l'AI più avanzata. Scegli tra una collezione curata di stili artistici di livello mondiale.",
+    "cta": "Trasforma il Tuo Animale",
+    "viewGallery": "Vedi Galleria"
+  },
+  "howItWorks": {
+    "title": "Come Funziona",
+    "subtitle": "Tre semplici passi per il capolavoro del tuo animale",
+    "step1Title": "Carica Foto",
+    "step1Desc": "Carica una foto chiara e ben illuminata del tuo animale",
+    "step2Title": "Scegli lo Stile",
+    "step2Desc": "Seleziona dalla nostra collezione curata di stili artistici",
+    "step3Title": "Scarica",
+    "step3Desc": "Ottieni il tuo ritratto ad alta risoluzione in pochi secondi"
+  },
+  "gallery": {
+    "title": "Galleria Stili Artistici",
+    "subtitle": "Esplora la nostra collezione curata di stili artistici di livello mondiale, ognuno creato per esaltare la personalità unica del tuo animale."
+  },
+  "pricing": {
+    "title": "Prezzi Semplici e Trasparenti",
+    "subtitle": "Scegli il pacchetto perfetto per i ritratti del tuo animale. Nessun abbonamento, nessun costo nascosto.",
+    "starter": "Starter",
+    "starterDesc": "Perfetto per provare",
+    "bundle": "Bundle",
+    "bundleDesc": "La scelta più popolare",
+    "collection": "Collezione",
+    "collectionDesc": "Miglior rapporto qualità-prezzo",
+    "popular": "Popolare",
+    "credits": "crediti",
+    "features": {
+      "highRes": "Output ad alta risoluzione 2K",
+      "allStyles": "Accesso a tutti gli stili",
+      "download": "Download istantaneo",
+      "noExpiry": "I crediti non scadono mai",
+      "priority": "Generazione prioritaria"
+    },
+    "getCta": "Acquista {{plan}}"
+  },
+  "printShop": {
+    "title": "Porta l'Arte a Casa Tua",
+    "subtitle": "Trasforma i tuoi ritratti digitali in stampe fisiche straordinarie, consegnate a domicilio.",
+    "quality": "Stampe di Qualità Museale",
+    "qualityDesc": "Stampe su tela premium con inchiostri archivistici che durano una vita.",
+    "shipping": "Spedizione a Domicilio",
+    "shippingDesc": "Consegna rapida e assicurata in tutta l'UE. Confezionato con cura per arrivare perfetto.",
+    "secure": "Checkout Sicuro",
+    "secureDesc": "Paga in sicurezza con Stripe. I tuoi dati di pagamento sono sempre protetti.",
+    "cta": "Inizia e Stampa"
+  },
+  "testimonials": {
+    "title": "Amato dai Proprietari di Animali",
+    "subtitle": "Scopri cosa dicono i nostri clienti dei loro ritratti RexPet"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Tutto quello che devi sapere su RexPet",
+    "q1": "Come funziona RexPet?",
+    "a1": "Carica semplicemente una foto chiara del tuo animale, scegli uno stile artistico dalla nostra collezione curata e la nostra AI genererà un ritratto straordinario in meno di 60 secondi. Potrai quindi scaricare il tuo capolavoro ad alta risoluzione o ordinare una stampa fisica.",
+    "q2": "Qual è la risoluzione delle immagini generate?",
+    "a2": "Tutti i ritratti generati sono prodotti in risoluzione 2K, adatti per la visualizzazione digitale e la stampa di alta qualità fino a grandi dimensioni.",
+    "q3": "Per quanto tempo sono disponibili le immagini generate?",
+    "a3": "Le immagini generate sono conservate per 30 giorni. Ti consigliamo di scaricare i tuoi ritratti non appena sono pronti. Puoi sempre rigenerare usando un altro credito.",
+    "q4": "Posso ordinare stampe fisiche?",
+    "a4": "Sì! Offriamo stampe su tela di qualità museale spedite in tutta l'UE. Dopo aver generato il tuo ritratto, puoi ordinare una stampa direttamente dalla tua dashboard.",
+    "q5": "Quali metodi di pagamento accettate?",
+    "a5": "Accettiamo tutte le principali carte di credito e debito, Apple Pay, Google Pay e altri metodi di pagamento locali tramite il nostro checkout sicuro Stripe.",
+    "q6": "Cosa succede se la generazione AI fallisce?",
+    "a6": "Se una generazione fallisce per qualsiasi motivo, il tuo credito viene automaticamente rimborsato. Puoi riprovare con la stessa foto o con una diversa.",
+    "q7": "Posso eliminare il mio account?",
+    "a7": "Sì, puoi eliminare il tuo account in qualsiasi momento dalle impostazioni della dashboard. Tutti i tuoi dati, incluse le foto caricate e i ritratti generati, saranno rimossi permanentemente in conformità con il GDPR."
+  },
+  "footer": {
+    "description": "Ritratti AI di lusso per animali creati con tecnologia all'avanguardia ed eccellenza artistica.",
+    "product": "Prodotto",
+    "account": "Account",
+    "legal": "Legale",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "madeWith": "Fatto con amore per gli amanti degli animali nell'UE"
+  },
+  "auth": {
+    "welcomeBack": "Bentornato",
+    "signInDesc": "Accedi al tuo account",
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "createAccount": "Crea il Tuo Account",
+    "createAccountDesc": "Inizia a creare capolavori per animali",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Nome Visualizzato",
+    "forgotPassword": "Password dimenticata?",
+    "noAccount": "Non hai un account?",
+    "hasAccount": "Hai già un account?",
+    "continueWithGoogle": "Continua con Google",
+    "or": "oppure",
+    "createBtn": "Crea Account",
+    "resetPassword": "Reimposta Password",
+    "resetDesc": "Inserisci la tua email e ti invieremo un link per reimpostare la password",
+    "checkEmail": "Controlla la tua email per il link di reimpostazione",
+    "sendResetLink": "Invia Link di Reimpostazione",
+    "backToSignIn": "Torna all'Accesso",
+    "passwordStrength": "Sicurezza password",
+    "weak": "Debole",
+    "fair": "Discreta",
+    "good": "Buona",
+    "strong": "Forte"
+  },
+  "dashboard": {
+    "welcome": "Benvenuto, {{name}}",
+    "createNext": "Crea il tuo prossimo capolavoro per animali",
+    "creditBalance": "Saldo Crediti",
+    "buyCredits": "Acquista Crediti",
+    "noPortraits": "Nessun ritratto ancora",
+    "noPortraitsDesc": "Carica una foto del tuo animale per iniziare",
+    "uploadPhoto": "Carica Foto",
+    "recentPortraits": "Ritratti Recenti",
+    "history": "Cronologia",
+    "historyDesc": "Tutti i tuoi ritratti generati",
+    "noHistory": "Nessuna cronologia",
+    "noHistoryDesc": "I tuoi ritratti generati appariranno qui",
+    "settings": "Impostazioni",
+    "settingsDesc": "Gestisci il tuo account",
+    "profile": "Profilo",
+    "dangerZone": "Zona Pericolosa",
+    "deleteAccount": "Elimina Account",
+    "deleteAccountDesc": "Elimina permanentemente il tuo account e tutti i dati associati. Questa azione non può essere annullata.",
+    "createPortrait": "Crea Ritratto",
+    "signOut": "Esci"
+  },
+  "generate": {
+    "title": "Crea Ritratto",
+    "step1": "1. Carica la foto del tuo animale",
+    "step1Desc": "Scegli una foto chiara e ben illuminata del tuo animale",
+    "step2": "2. Scegli il tuo stile",
+    "step2Desc": "Seleziona lo stile artistico per il tuo ritratto",
+    "step3Generate": "Genera Ritratto (1 credito)",
+    "needCredits": "Hai bisogno di almeno 1 credito per generare un ritratto",
+    "dragDrop": "Clicca per caricare o trascina qui",
+    "fileTypes": "JPG, PNG, WebP fino a 10MB",
+    "generating": "Creazione del Tuo Ritratto...",
+    "generatingDesc": "Di solito ci vogliono 30-60 secondi. Per favore non chiudere questa pagina.",
+    "ready": "Il Tuo Ritratto è Pronto!",
+    "download": "Scarica",
+    "share": "Condividi",
+    "createAnother": "Crea un Altro Ritratto"
+  },
+  "notFound": {
+    "title": "Pagina Non Trovata",
+    "desc": "La pagina che cerchi non esiste o è stata spostata.",
+    "home": "Torna alla Home",
+    "createPortrait": "Crea Ritratto",
+    "looking": "Cerchi qualcosa di specifico? Prova questi:"
+  },
+  "cookie": {
+    "message": "Utilizziamo i cookie per migliorare la tua esperienza. Continuando, accetti l'uso dei cookie.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "learnMore": "Scopri di più"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "gallery": "Galerie",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "signIn": "Anmelden",
+    "getStarted": "Jetzt Starten"
+  },
+  "hero": {
+    "badge": "KI-gestützte Haustier-Porträts",
+    "title": "Dein Haustier, Verewigt in Kunst",
+    "subtitle": "Verwandle das Foto deines geliebten Haustieres in ein atemberaubendes, museumsreifes Kunstporträt mit modernster KI. Wähle aus einer kuratierten Sammlung erstklassiger Kunststile.",
+    "cta": "Verwandle Dein Haustier",
+    "viewGallery": "Galerie Ansehen"
+  },
+  "howItWorks": {
+    "title": "So Funktioniert's",
+    "subtitle": "Drei einfache Schritte zum Meisterwerk deines Haustieres",
+    "step1Title": "Foto Hochladen",
+    "step1Desc": "Lade ein klares, gut beleuchtetes Foto deines Haustieres hoch",
+    "step2Title": "Stil Wählen",
+    "step2Desc": "Wähle aus unserer kuratierten Sammlung künstlerischer Stile",
+    "step3Title": "Herunterladen",
+    "step3Desc": "Erhalte dein hochauflösendes Porträt in Sekunden"
+  },
+  "gallery": {
+    "title": "Kunststil-Galerie",
+    "subtitle": "Entdecke unsere kuratierte Sammlung erstklassiger Kunststile, die jeweils die einzigartige Persönlichkeit deines Haustieres hervorheben."
+  },
+  "pricing": {
+    "title": "Einfache, Transparente Preise",
+    "subtitle": "Wähle das perfekte Paket für deine Haustier-Porträts. Keine Abonnements, keine versteckten Gebühren.",
+    "starter": "Starter",
+    "starterDesc": "Perfekt zum Ausprobieren",
+    "bundle": "Bundle",
+    "bundleDesc": "Beliebteste Wahl",
+    "collection": "Kollektion",
+    "collectionDesc": "Bestes Preis-Leistungs-Verhältnis",
+    "popular": "Beliebt",
+    "credits": "Credits",
+    "features": {
+      "highRes": "Hochauflösende 2K-Ausgabe",
+      "allStyles": "Zugang zu allen Kunststilen",
+      "download": "Sofortiger Download",
+      "noExpiry": "Credits verfallen nie",
+      "priority": "Prioritäts-Generierung"
+    },
+    "getCta": "{{plan}} kaufen"
+  },
+  "printShop": {
+    "title": "Bringe Deine Kunst nach Hause",
+    "subtitle": "Verwandle deine digitalen Porträts in atemberaubende physische Drucke, direkt an deine Tür geliefert.",
+    "quality": "Museumsqualität Drucke",
+    "qualityDesc": "Premium-Leinwanddrucke mit Archivtinten, die ein Leben lang halten.",
+    "shipping": "Direkt an Deine Tür",
+    "shippingDesc": "Schnelle, versicherte Lieferung in der gesamten EU. Sorgfältig verpackt.",
+    "secure": "Sicherer Checkout",
+    "secureDesc": "Bezahle sicher mit Stripe. Deine Zahlungsdaten sind immer geschützt.",
+    "cta": "Starten & Drucken"
+  },
+  "testimonials": {
+    "title": "Geliebt von Tierbesitzern",
+    "subtitle": "Erfahre, was unsere Kunden über ihre RexPet-Porträts sagen"
+  },
+  "faq": {
+    "title": "Häufig Gestellte Fragen",
+    "subtitle": "Alles, was du über RexPet wissen musst",
+    "q1": "Wie funktioniert RexPet?",
+    "a1": "Lade einfach ein klares Foto deines Haustieres hoch, wähle einen Kunststil aus unserer Sammlung und unsere KI erstellt ein atemberaubendes Porträt in unter 60 Sekunden. Du kannst dann dein hochauflösendes Meisterwerk herunterladen oder einen physischen Druck bestellen.",
+    "q2": "Welche Auflösung haben die generierten Bilder?",
+    "a2": "Alle generierten Porträts werden in 2K-Auflösung erstellt, geeignet für digitale Anzeige und hochwertigen Druck bis hin zu großen Leinwänden.",
+    "q3": "Wie lange sind generierte Bilder verfügbar?",
+    "a3": "Generierte Bilder werden 30 Tage gespeichert. Wir empfehlen, deine Porträts sofort herunterzuladen. Du kannst jederzeit mit einem weiteren Credit neu generieren.",
+    "q4": "Kann ich physische Drucke bestellen?",
+    "a4": "Ja! Wir bieten Leinwanddrucke in Museumsqualität, die EU-weit versendet werden. Nach der Generierung deines Porträts kannst du direkt aus deinem Dashboard einen Druck bestellen.",
+    "q5": "Welche Zahlungsmethoden akzeptiert ihr?",
+    "a5": "Wir akzeptieren alle gängigen Kredit- und Debitkarten, Apple Pay, Google Pay und andere lokale Zahlungsmethoden über unseren sicheren Stripe-Checkout.",
+    "q6": "Was passiert, wenn die KI-Generierung fehlschlägt?",
+    "a6": "Wenn eine Generierung aus irgendeinem Grund fehlschlägt, wird dein Credit automatisch erstattet. Du kannst es mit demselben oder einem anderen Foto erneut versuchen.",
+    "q7": "Kann ich mein Konto löschen?",
+    "a7": "Ja, du kannst dein Konto jederzeit in den Dashboard-Einstellungen löschen. Alle deine Daten, einschließlich hochgeladener Fotos und generierter Porträts, werden gemäß DSGVO dauerhaft entfernt."
+  },
+  "footer": {
+    "description": "Luxuriöse KI-Haustier-Porträts, erstellt mit modernster Technologie und künstlerischer Exzellenz.",
+    "product": "Produkt",
+    "account": "Konto",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "madeWith": "Mit Liebe für Tierliebhaber in der EU gemacht"
+  },
+  "auth": {
+    "welcomeBack": "Willkommen Zurück",
+    "signInDesc": "Melde dich bei deinem Konto an",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "createAccount": "Konto Erstellen",
+    "createAccountDesc": "Beginne, Haustier-Meisterwerke zu erstellen",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "displayName": "Anzeigename",
+    "forgotPassword": "Passwort vergessen?",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "continueWithGoogle": "Weiter mit Google",
+    "or": "oder",
+    "createBtn": "Konto Erstellen",
+    "resetPassword": "Passwort Zurücksetzen",
+    "resetDesc": "Gib deine E-Mail ein und wir senden dir einen Link zum Zurücksetzen",
+    "checkEmail": "Überprüfe deine E-Mail für den Reset-Link",
+    "sendResetLink": "Reset-Link Senden",
+    "backToSignIn": "Zurück zur Anmeldung",
+    "passwordStrength": "Passwortstärke",
+    "weak": "Schwach",
+    "fair": "Mittel",
+    "good": "Gut",
+    "strong": "Stark"
+  },
+  "dashboard": {
+    "welcome": "Willkommen, {{name}}",
+    "createNext": "Erstelle dein nächstes Haustier-Meisterwerk",
+    "creditBalance": "Credit-Guthaben",
+    "buyCredits": "Credits Kaufen",
+    "noPortraits": "Noch keine Porträts",
+    "noPortraitsDesc": "Lade ein Foto deines Haustieres hoch, um zu beginnen",
+    "uploadPhoto": "Foto Hochladen",
+    "recentPortraits": "Neueste Porträts",
+    "history": "Verlauf",
+    "historyDesc": "Alle deine generierten Porträts",
+    "noHistory": "Noch kein Verlauf",
+    "noHistoryDesc": "Deine generierten Porträts erscheinen hier",
+    "settings": "Einstellungen",
+    "settingsDesc": "Verwalte dein Konto",
+    "profile": "Profil",
+    "dangerZone": "Gefahrenzone",
+    "deleteAccount": "Konto Löschen",
+    "deleteAccountDesc": "Lösche dein Konto und alle zugehörigen Daten dauerhaft. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "createPortrait": "Porträt Erstellen",
+    "signOut": "Abmelden"
+  },
+  "generate": {
+    "title": "Porträt Erstellen",
+    "step1": "1. Lade das Foto deines Haustieres hoch",
+    "step1Desc": "Wähle ein klares, gut beleuchtetes Foto deines Haustieres",
+    "step2": "2. Wähle deinen Stil",
+    "step2Desc": "Wähle den künstlerischen Stil für dein Porträt",
+    "step3Generate": "Porträt Generieren (1 Credit)",
+    "needCredits": "Du brauchst mindestens 1 Credit, um ein Porträt zu generieren",
+    "dragDrop": "Klicke zum Hochladen oder ziehe hierher",
+    "fileTypes": "JPG, PNG, WebP bis 10MB",
+    "generating": "Dein Porträt wird erstellt...",
+    "generatingDesc": "Dies dauert in der Regel 30-60 Sekunden. Bitte schließe diese Seite nicht.",
+    "ready": "Dein Porträt ist Fertig!",
+    "download": "Herunterladen",
+    "share": "Teilen",
+    "createAnother": "Weiteres Porträt Erstellen"
+  },
+  "notFound": {
+    "title": "Seite Nicht Gefunden",
+    "desc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zurück zur Startseite",
+    "createPortrait": "Porträt Erstellen",
+    "looking": "Suchst du etwas Bestimmtes? Probiere diese:"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um dein Erlebnis zu verbessern. Durch Fortfahren stimmst du der Verwendung von Cookies zu.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "learnMore": "Mehr erfahren"
+  }
+}

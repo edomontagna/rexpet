@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "gallery": "Galerie",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "signIn": "Connexion",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "Portraits d'Animaux par IA",
+    "title": "Votre Animal, Immortalisé dans l'Art",
+    "subtitle": "Transformez la photo de votre animal bien-aimé en un superbe portrait artistique de qualité muséale grâce à l'IA de pointe. Choisissez parmi une collection soignée de styles artistiques de renommée mondiale.",
+    "cta": "Transformez Votre Animal",
+    "viewGallery": "Voir la Galerie"
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "subtitle": "Trois étapes simples vers le chef-d'œuvre de votre animal",
+    "step1Title": "Télécharger la Photo",
+    "step1Desc": "Téléchargez une photo claire et bien éclairée de votre animal",
+    "step2Title": "Choisir le Style",
+    "step2Desc": "Sélectionnez parmi notre collection soignée de styles artistiques",
+    "step3Title": "Télécharger",
+    "step3Desc": "Obtenez votre portrait haute résolution en quelques secondes"
+  },
+  "gallery": {
+    "title": "Galerie de Styles Artistiques",
+    "subtitle": "Explorez notre collection soignée de styles artistiques de classe mondiale, chacun conçu pour faire ressortir la personnalité unique de votre animal."
+  },
+  "pricing": {
+    "title": "Tarification Simple et Transparente",
+    "subtitle": "Choisissez le forfait parfait pour les portraits de votre animal. Pas d'abonnement, pas de frais cachés.",
+    "starter": "Starter",
+    "starterDesc": "Parfait pour essayer",
+    "bundle": "Bundle",
+    "bundleDesc": "Le choix le plus populaire",
+    "collection": "Collection",
+    "collectionDesc": "Meilleur rapport qualité-prix",
+    "popular": "Populaire",
+    "credits": "crédits",
+    "features": {
+      "highRes": "Sortie haute résolution 2K",
+      "allStyles": "Accès à tous les styles",
+      "download": "Téléchargement instantané",
+      "noExpiry": "Les crédits n'expirent jamais",
+      "priority": "Génération prioritaire"
+    },
+    "getCta": "Obtenir {{plan}}"
+  },
+  "printShop": {
+    "title": "Ramenez l'Art Chez Vous",
+    "subtitle": "Transformez vos portraits numériques en superbes impressions physiques, livrées à votre porte.",
+    "quality": "Impressions Qualité Musée",
+    "qualityDesc": "Impressions sur toile premium avec des encres d'archives qui durent toute une vie.",
+    "shipping": "Livraison à Domicile",
+    "shippingDesc": "Livraison rapide et assurée dans toute l'UE. Soigneusement emballé pour arriver parfait.",
+    "secure": "Paiement Sécurisé",
+    "secureDesc": "Payez en toute sécurité avec Stripe. Vos données de paiement sont toujours protégées.",
+    "cta": "Commencer & Imprimer"
+  },
+  "testimonials": {
+    "title": "Adoré par les Propriétaires d'Animaux",
+    "subtitle": "Découvrez ce que nos clients disent de leurs portraits RexPet"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur RexPet",
+    "q1": "Comment fonctionne RexPet ?",
+    "a1": "Téléchargez simplement une photo claire de votre animal, choisissez un style artistique dans notre collection et notre IA générera un portrait époustouflant en moins de 60 secondes. Vous pourrez ensuite télécharger votre chef-d'œuvre haute résolution ou commander une impression physique.",
+    "q2": "Quelle est la résolution des images générées ?",
+    "a2": "Tous les portraits générés sont produits en résolution 2K, adaptés à l'affichage numérique et à l'impression haute qualité jusqu'aux grands formats.",
+    "q3": "Combien de temps les images générées sont-elles disponibles ?",
+    "a3": "Les images générées sont conservées pendant 30 jours. Nous vous recommandons de télécharger vos portraits dès qu'ils sont prêts. Vous pouvez toujours régénérer en utilisant un autre crédit.",
+    "q4": "Puis-je commander des impressions physiques ?",
+    "a4": "Oui ! Nous proposons des impressions sur toile de qualité muséale expédiées dans toute l'UE. Après avoir généré votre portrait, vous pouvez commander une impression directement depuis votre tableau de bord.",
+    "q5": "Quels moyens de paiement acceptez-vous ?",
+    "a5": "Nous acceptons toutes les principales cartes de crédit et de débit, Apple Pay, Google Pay et d'autres moyens de paiement locaux via notre paiement sécurisé Stripe.",
+    "q6": "Que se passe-t-il si la génération IA échoue ?",
+    "a6": "Si une génération échoue pour quelque raison que ce soit, votre crédit est automatiquement remboursé. Vous pouvez réessayer avec la même photo ou une photo différente.",
+    "q7": "Puis-je supprimer mon compte ?",
+    "a7": "Oui, vous pouvez supprimer votre compte à tout moment depuis les paramètres de votre tableau de bord. Toutes vos données, y compris les photos téléchargées et les portraits générés, seront définitivement supprimées conformément au RGPD."
+  },
+  "footer": {
+    "description": "Portraits d'animaux IA de luxe créés avec une technologie de pointe et une excellence artistique.",
+    "product": "Produit",
+    "account": "Compte",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "madeWith": "Fait avec amour pour les amoureux des animaux dans l'UE"
+  },
+  "auth": {
+    "welcomeBack": "Bon Retour",
+    "signInDesc": "Connectez-vous à votre compte",
+    "signIn": "Connexion",
+    "signUp": "Inscription",
+    "createAccount": "Créer Votre Compte",
+    "createAccountDesc": "Commencez à créer des chefs-d'œuvre pour animaux",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "displayName": "Nom d'Affichage",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "continueWithGoogle": "Continuer avec Google",
+    "or": "ou",
+    "createBtn": "Créer un Compte",
+    "resetPassword": "Réinitialiser le Mot de Passe",
+    "resetDesc": "Entrez votre e-mail et nous vous enverrons un lien de réinitialisation",
+    "checkEmail": "Vérifiez votre e-mail pour le lien de réinitialisation",
+    "sendResetLink": "Envoyer le Lien",
+    "backToSignIn": "Retour à la Connexion",
+    "passwordStrength": "Force du mot de passe",
+    "weak": "Faible",
+    "fair": "Moyen",
+    "good": "Bon",
+    "strong": "Fort"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {{name}}",
+    "createNext": "Créez votre prochain chef-d'œuvre pour animal",
+    "creditBalance": "Solde de Crédits",
+    "buyCredits": "Acheter des Crédits",
+    "noPortraits": "Pas encore de portraits",
+    "noPortraitsDesc": "Téléchargez une photo de votre animal pour commencer",
+    "uploadPhoto": "Télécharger Photo",
+    "recentPortraits": "Portraits Récents",
+    "history": "Historique",
+    "historyDesc": "Tous vos portraits générés",
+    "noHistory": "Pas encore d'historique",
+    "noHistoryDesc": "Vos portraits générés apparaîtront ici",
+    "settings": "Paramètres",
+    "settingsDesc": "Gérez votre compte",
+    "profile": "Profil",
+    "dangerZone": "Zone Dangereuse",
+    "deleteAccount": "Supprimer le Compte",
+    "deleteAccountDesc": "Supprimez définitivement votre compte et toutes les données associées. Cette action est irréversible.",
+    "createPortrait": "Créer un Portrait",
+    "signOut": "Déconnexion"
+  },
+  "generate": {
+    "title": "Créer un Portrait",
+    "step1": "1. Téléchargez la photo de votre animal",
+    "step1Desc": "Choisissez une photo claire et bien éclairée de votre animal",
+    "step2": "2. Choisissez votre style",
+    "step2Desc": "Sélectionnez le style artistique pour votre portrait",
+    "step3Generate": "Générer Portrait (1 crédit)",
+    "needCredits": "Vous avez besoin d'au moins 1 crédit pour générer un portrait",
+    "dragDrop": "Cliquez pour télécharger ou glissez-déposez",
+    "fileTypes": "JPG, PNG, WebP jusqu'à 10Mo",
+    "generating": "Création de Votre Portrait...",
+    "generatingDesc": "Cela prend généralement 30 à 60 secondes. Veuillez ne pas fermer cette page.",
+    "ready": "Votre Portrait est Prêt !",
+    "download": "Télécharger",
+    "share": "Partager",
+    "createAnother": "Créer un Autre Portrait"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "desc": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'Accueil",
+    "createPortrait": "Créer un Portrait",
+    "looking": "Vous cherchez quelque chose de spécifique ? Essayez :"
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez l'utilisation des cookies.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus"
+  }
+}

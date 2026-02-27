@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RexPet — AI Pet Portraits</title>
+    <meta name="description" content="Transform your pet photos into stunning AI-generated artistic portraits. Oil paintings, watercolors, pop art and more. Starting at €4.99." />
+    <meta name="author" content="RexPet" />
+
+    <!-- Security headers (meta-based) -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="RexPet — AI Pet Portraits" />
+    <meta property="og:description" content="Transform your pet photos into stunning AI-generated artistic portraits. Oil paintings, watercolors, pop art and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rexpet.com" />
+    <meta property="og:site_name" content="RexPet" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@RexPetAI" />
+    <meta name="twitter:title" content="RexPet — AI Pet Portraits" />
+    <meta name="twitter:description" content="Transform your pet photos into stunning AI-generated artistic portraits." />
+
+    <link rel="canonical" href="https://rexpet.com" />
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RexPet",
+      "url": "https://rexpet.com",
+      "description": "AI-powered luxury pet portrait generator"
+    }
+    </script>
+
+    <!-- Structured Data: Product -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "RexPet AI Pet Portraits",
+      "description": "Transform your pet photos into stunning AI-generated artistic portraits",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "4.99",
+        "highPrice": "24.99",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does RexPet work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upload a clear photo of your pet, choose an artistic style, and our AI generates a stunning portrait in under 60 seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What resolution are the generated images?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All generated portraits are produced in 2K resolution, suitable for digital display and high-quality printing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I order physical prints?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We offer museum-quality canvas prints shipped across the EU. Prices start at €79."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Analytics 4 (placeholder - replace VITE_GA_MEASUREMENT_ID) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <!-- Meta Pixel (placeholder - replace VITE_META_PIXEL_ID) -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
