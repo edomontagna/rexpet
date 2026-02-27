@@ -38,8 +38,8 @@ const App = () => (
       <AuthProvider>
         <TooltipProvider>
           <Sonner />
-          <CookieBanner />
           <BrowserRouter>
+            <CookieBanner />
             <Suspense fallback={<PageLoader />}>
               <Routes>
                 <Route path="/" element={<Index />} />
