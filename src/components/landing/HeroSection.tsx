@@ -2,53 +2,62 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-luxury" />
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: `radial-gradient(circle at 1px 1px, hsl(var(--gold)) 1px, transparent 0)`,
-        backgroundSize: "40px 40px"
-      }} />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero noise-overlay">
+      {/* Ambient glow orbs */}
+      <div className="absolute top-1/3 left-1/5 w-[500px] h-[500px] rounded-full bg-gold/[0.04] blur-[120px] animate-float" />
+      <div className="absolute bottom-1/4 right-1/5 w-[600px] h-[600px] rounded-full bg-gold/[0.03] blur-[150px] animate-float" style={{ animationDelay: "3.5s" }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gold/[0.02] blur-[200px] animate-glow-pulse" />
 
-      {/* Floating orbs */}
-      <div className="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-primary/5 blur-3xl animate-float" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-primary/5 blur-3xl animate-float" style={{ animationDelay: "3s" }} />
+      {/* Decorative lines */}
+      <div className="absolute top-0 left-1/2 w-px h-32 bg-gradient-to-b from-transparent via-gold/20 to-transparent" />
+      <div className="absolute bottom-0 left-1/2 w-px h-32 bg-gradient-to-t from-transparent via-gold/20 to-transparent" />
 
-      <div className="container relative z-10 px-4 lg:px-8 text-center">
+      <div className="container relative z-10 px-6 lg:px-8 text-center">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-4xl mx-auto"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
+          className="max-w-5xl mx-auto"
         >
           {/* Badge */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/5 mb-8"
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-gold/20 bg-gold/[0.06] mb-10"
           >
-            <Sparkles className="h-3.5 w-3.5 text-primary" />
-            <span className="text-xs font-medium tracking-wide uppercase text-primary">{t("hero.badge")}</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-gold animate-glow-pulse" />
+            <span className="text-xs font-medium tracking-[0.2em] uppercase text-gold-light">{t("hero.badge")}</span>
           </motion.div>
 
           {/* Headline */}
-          <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] tracking-tight text-secondary-foreground mb-6">
-            {t("hero.title")}
-          </h1>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            className="font-serif text-display font-light text-white mb-8 text-balance"
+          >
+            {t("hero.title").split(",").map((part, i) =>
+              i === 0 ? (
+                <span key={i}>{part},<br className="hidden sm:block" /></span>
+              ) : (
+                <span key={i} className="text-gradient-gold font-medium italic">{part}</span>
+              )
+            )}
+          </motion.h1>
 
           {/* Subheadline */}
           <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-lg sm:text-xl text-secondary-foreground/70 max-w-2xl mx-auto mb-10 font-light leading-relaxed"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
+            className="text-lg sm:text-xl text-white/50 max-w-2xl mx-auto mb-14 font-light leading-relaxed"
           >
             {t("hero.subtitle")}
           </motion.p>
@@ -57,18 +66,39 @@ const HeroSection = () => {
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.6 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            transition={{ delay: 1.1, duration: 0.7 }}
+            className="flex flex-col sm:flex-row items-center justify-center gap-5"
           >
-            <Button size="lg" asChild className="rounded-full px-8 h-13 text-base shadow-luxury group">
+            <Button
+              size="lg"
+              asChild
+              className="rounded-full px-10 h-14 text-base shadow-glow-gold group bg-gradient-to-r from-gold-dark via-gold to-gold-light text-secondary hover:opacity-90 transition-all duration-300 font-semibold tracking-wide border-0"
+            >
               <Link to="/generate">
                 {t("hero.cta")}
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1.5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="rounded-full px-8 h-13 text-base border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/5">
+            <Button
+              size="lg"
+              variant="ghost"
+              asChild
+              className="rounded-full px-10 h-14 text-base text-white/70 hover:text-white hover:bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-300 tracking-wide"
+            >
               <a href="#gallery">{t("hero.viewGallery")}</a>
             </Button>
+          </motion.div>
+
+          {/* Scroll indicator */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2, duration: 1 }}
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+          >
+            <div className="w-5 h-8 rounded-full border border-white/20 flex justify-center pt-1.5">
+              <div className="w-1 h-2 rounded-full bg-white/40 animate-float" style={{ animationDuration: "2s" }} />
+            </div>
           </motion.div>
         </motion.div>
       </div>

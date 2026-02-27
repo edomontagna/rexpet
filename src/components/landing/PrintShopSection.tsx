@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Truck, ShieldCheck, Frame } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const PrintShopSection = () => {
   const { t } = useTranslation();
@@ -14,52 +15,81 @@ const PrintShopSection = () => {
   ];
 
   return (
-    <section id="prints" className="py-24 lg:py-32 bg-background" aria-labelledby="prints-heading">
-      <div className="container px-4 lg:px-8">
-        <div className="text-center mb-16">
-          <motion.h2
-            id="prints-heading"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="font-serif text-4xl lg:text-5xl font-bold text-foreground mb-4"
-          >
-            {t("printShop.title")}
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-muted-foreground max-w-xl mx-auto text-lg"
-          >
-            {t("printShop.subtitle")}
-          </motion.p>
-        </div>
+    <section id="prints" className="py-28 lg:py-36 bg-gradient-hero noise-overlay relative" aria-labelledby="prints-heading">
+      <div className="container px-6 lg:px-8 relative z-10">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left: Text content */}
+            <div>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                className="text-xs font-semibold tracking-[0.3em] uppercase text-gold mb-4"
+              >
+                Physical Prints
+              </motion.p>
+              <motion.h2
+                id="prints-heading"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="font-serif text-display-sm font-light text-white mb-6"
+              >
+                {t("printShop.title")}
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="text-white/40 text-lg font-light leading-relaxed mb-10"
+              >
+                {t("printShop.subtitle")}
+              </motion.p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
-          {features.map((feat, i) => (
-            <motion.div
-              key={feat.titleKey}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="text-center"
-            >
-              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <feat.icon className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="font-serif text-lg font-semibold text-foreground mb-2">{t(feat.titleKey)}</h3>
-              <p className="text-sm text-muted-foreground">{t(feat.descKey)}</p>
-            </motion.div>
-          ))}
-        </div>
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3 }}
+              >
+                <Button
+                  size="lg"
+                  asChild
+                  className="rounded-full px-10 h-14 bg-gradient-to-r from-gold-dark via-gold to-gold-light text-secondary hover:opacity-90 transition-all font-semibold tracking-wide border-0 shadow-glow-gold group"
+                >
+                  <Link to="/signup">
+                    {t("printShop.cta")}
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </Button>
+              </motion.div>
+            </div>
 
-        <div className="text-center">
-          <Button size="lg" asChild className="rounded-full px-8 h-13 text-base shadow-luxury">
-            <Link to="/signup">{t("printShop.cta")}</Link>
-          </Button>
+            {/* Right: Feature cards */}
+            <div className="space-y-5">
+              {features.map((feat, i) => (
+                <motion.div
+                  key={feat.titleKey}
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2 + i * 0.15, duration: 0.6 }}
+                  className="flex items-start gap-5 p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-gold/20 transition-all duration-500 group"
+                >
+                  <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/15 flex items-center justify-center shrink-0 group-hover:shadow-glow-gold transition-all duration-500">
+                    <feat.icon className="h-5 w-5 text-gold" strokeWidth={1.5} />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-lg font-normal text-white mb-1">{t(feat.titleKey)}</h3>
+                    <p className="text-sm text-white/40 leading-relaxed">{t(feat.descKey)}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
